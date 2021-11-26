@@ -1064,9 +1064,9 @@ color:#002248 ;
   }
   .btn-arrow{
     margin-top: 1rem;
-  }
-}
-@media screen and (max-width:400px){
+  }}
+  @media screen and (max-width:400px){
+
   footer .container .menu{
     width: 90% !important;
   }
@@ -1087,5 +1087,60 @@ color:#002248 ;
   .blur {
     margin-left: 0;
     margin-right: 1%;
+  }
+  .video .text {
+    bottom: 10% !important;
+    width: 60%;
+  }
+  .text .medium-text {
+    font-size: 1.8rem;
 }
+.play-stop-button .out {
+  width: 4.4rem;
+  height: 4.4rem;
+}
+.play-stop-button .in {
+  width: 2.4rem;
+  height: 2.5rem;
+}
+.play-button {
+  width: .7rem;
+  }
+  .video .text .small-text.light-color  {
+    font-size: 1rem;
+    margin-top: .8rem !important;
+    margin-bottom: .8rem !important;
+  }
+}
+@media screen and (max-width:360px){
+  .video{
+    font-size: 10px;
+  }
+  .video .text{
+    width: 62%;
+  }
+  .video .text .small-text.light-color {
+    font-size: .8em;
+    margin-top: 0.8em !important;
+    margin-bottom: 0.8em !important;
+}
+.video .text .small-text.green-color {
+  font-size: .8em;
+}
+  .video .basic-button {
+    border-radius: 0.4em !important;
+    padding: 0.5em 2em !important;
+    font-size: .8em !important;
+  }
+  .play-stop-button .out {
+    width: 3.8rem;
+    height: 3.8rem;
+  }
+  .play-stop-button .in {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .play-button {
+    width: .5rem;
+    }
 }
