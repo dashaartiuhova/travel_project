@@ -14,8 +14,12 @@ body {
 	display: flex;
 	flex-direction: column;
     min-height: 100%;
-    max-width: 1700px;
-    margin: auto;
+    
+    
+}
+.max-width{
+  max-width: 1700px;
+  margin: auto;
 }
 .top-nav{
   width: 72%;
@@ -74,7 +78,9 @@ body {
 .basic-button{
   border-radius: 0.6rem !important ;
   padding: .9rem 3rem !important;
+  border-color: none !important;
 }
+
 .images-header{
   position: relative;
 }
@@ -119,9 +125,14 @@ color:#002248 ;
   
   background-color: #3685FB !important;
 }
+.blue-back:hover{
+  background-color: #296cd1 !important;
+  transition: .5s;
+}
 .filter-block{
   padding: 2.9rem 4.5rem ;
   height: 100%;
+  cursor: pointer;
 }
 .round-left{
   border-radius: 1.9rem 0 0 1.9rem;
@@ -192,12 +203,15 @@ color:#002248 ;
   content: url(./Vector\ \(1\).png);
 }
 .btn-arrow:hover{
+  transition: .5s;
   background-color: #3685FB;
 }
 .btn-arrow:hover .arrowleft{
+  transition: .5s;
   border-color: #FCFCFC;
 }
 .btn-arrow:hover .arrowright{
+  transition: .5s;
   border-color: #FCFCFC;
 }
 .arrowright {
@@ -492,6 +506,11 @@ color:#002248 ;
   height:2.5rem;
   position: relative;
   margin-left: 5%;
+}
+.social-icon:hover{
+  background-color: #eef1f5da;
+  transition: .3s;
+  cursor: pointer;
 }
 .social-icon img{
   position: absolute;
